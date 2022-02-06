@@ -1,7 +1,7 @@
-# Fibonocci-Recursion-with-Memorization
+# Fibonocci-Recursion-with-Memoization
 
 ## Overview
-This project demonstrated the time complexity of Fibonacci Recursion algorithm and how memorization technique can implemented and reduce the time complexity from O(2^n) down to O(n).
+This project demonstrated the time complexity of Fibonacci Recursion algorithm and how memoization technique can implemented and reduce the time complexity from O(2^n) down to O(n).
 ![Screen Shot 2022-02-05 at 4 50 35 PM](https://user-images.githubusercontent.com/84875731/152663996-5de0f160-b7e9-46ce-9a5a-b5cc729d35d2.png)
 
 
@@ -18,7 +18,7 @@ Since the computer will calculate the first(left) recursive method in each level
 
 
 ## Conclusion
-By using memorization, the time complexity went from the worst O(2^n) to the best possible outcome O(n). 
+By using memoization, the time complexity went from the worst O(2^n) to the best possible outcome O(n). 
 
 ![Screen Shot 2022-02-05 at 4 57 05 PM](https://user-images.githubusercontent.com/84875731/152664103-908e29e2-132e-4b10-baa4-57955f772770.png)
 
