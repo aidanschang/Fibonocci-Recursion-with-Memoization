@@ -10,12 +10,6 @@ With traditional recursive algorithm of Fibonacci, the method is recursively cal
     
 If we take a look at the complete binary tree of Fibonacci Recursion, we will notice that all the left recursion method in each level calculates the nth Fibonacci number all the way to 1. For example, Fibonacci(n), Fibonacci(n-1), Fibonacci(n-2), Fibonacci(n-3), ........Fibonacci(1).
 
-                           Fib(n)
-                  /                     \
-          Fib(n-1)                      Fib(n-2)
-         /        \                     /       \
-Fib((n-1)-1)    Fib((n-1)-2)   Fib((n-2)-1)     Fib(n-2)-2)
-
-
+![Screen Shot 2022-02-05 at 4 43 04 PM](https://user-images.githubusercontent.com/84875731/152663837-dd9e8197-d752-464e-a7cf-45a39efe85b7.png)
 
 Further, we know that the computer will calculate the first(left) recursive method in each level first, which means that by archiving the Fibonacci numbers that the computer already calculated, it can be pulled
