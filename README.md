@@ -17,4 +17,5 @@ If we take a look at the complete binary tree of Fibonacci Recursion, we will no
 Fib((n-1)-1)    Fib((n-1)-2)   Fib((n-2)-1)     Fib(n-2)-2)
 
 
+
 Further, we know that the computer will calculate the first(left) recursive method in each level first, which means that by archiving the Fibonacci numbers that the computer already calculated, it can be pulled
