@@ -2,7 +2,9 @@
 
 ## Overview
 This project demonstrated the time complexity of Fibonacci Recursion algorithm and how memorization technique can implemented and reduce the time complexity from O(2^n) down to O(n).
-![Screen Shot 2022-02-05 at 3 56 20 PM](https://user-images.githubusercontent.com/84875731/152662995-700fef75-6ca0-4dc2-bb36-8fcffa03717b.png)
+![Screen Shot 2022-02-05 at 4 50 35 PM](https://user-images.githubusercontent.com/84875731/152663996-5de0f160-b7e9-46ce-9a5a-b5cc729d35d2.png)
+
+
 ## Theory
 With traditional recursive algorithm of Fibonacci, the method is recursively called by adding nth number minus one and nth number minus two. Results a complete binary tree with nth level. Therefore, the time complexity of a traditional recursion would be O(2^n).
 
@@ -12,5 +14,8 @@ If we take a look at the complete binary tree of Fibonacci Recursion, we will no
 
 ![Screen Shot 2022-02-05 at 4 43 04 PM](https://user-images.githubusercontent.com/84875731/152663837-dd9e8197-d752-464e-a7cf-45a39efe85b7.png)
 
-Since the computer will calculate the first(left) recursive method in each level first, we can save the Fibonacci number the computer obtained into an array, then reuse that number instead of recalculated that same number again.
+Since the computer will calculate the first(left) recursive method in each level first, we can save the Fibonacci number the computer obtained into an array, then reuse that number instead of recalculated that same number again. Which means, each Fibonacci number only has to be calculated once and so the time complexity is O(n).
 
+
+## Conclusion
+By using memorization, the time complexity went from the worst O(2^n) to the best possible outcome O(n)
