@@ -14,7 +14,7 @@ If we take a look at the complete binary tree of Fibonacci Recursion, we will no
 
 ![Screen Shot 2022-02-05 at 4 43 04 PM](https://user-images.githubusercontent.com/84875731/152663837-dd9e8197-d752-464e-a7cf-45a39efe85b7.png)
 
-Since the computer will calculate the first(left) recursive method in each level first, we can save the Fibonacci number the computer obtained into an array, then reuse that number instead of recalculated that same number again. Which means, each Fibonacci number only has to be calculated once and so the time complexity is O(n).
+Since the computer will calculate the first(left) recursive method in each level first, we can save the Fibonacci numbers into an array, then reuse the numbers instead of recalculated that same number again. Which means, each Fibonacci number only has to be calculated once and so the time complexity is O(n).
 
 
 ## Conclusion
