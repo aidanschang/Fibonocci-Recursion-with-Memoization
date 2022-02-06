@@ -18,4 +18,7 @@ Since the computer will calculate the first(left) recursive method in each level
 
 
 ## Conclusion
-By using memorization, the time complexity went from the worst O(2^n) to the best possible outcome O(n)
+By using memorization, the time complexity went from the worst O(2^n) to the best possible outcome O(n). 
+
+![Screen Shot 2022-02-05 at 4 57 05 PM](https://user-images.githubusercontent.com/84875731/152664103-908e29e2-132e-4b10-baa4-57955f772770.png)
+
