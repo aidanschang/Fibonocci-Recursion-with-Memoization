@@ -16,7 +16,7 @@ If we take a look at the complete binary tree of Fibonacci Recursion, we will no
 ![Screen Shot 2022-02-05 at 4 43 04 PM](https://user-images.githubusercontent.com/84875731/152663837-dd9e8197-d752-464e-a7cf-45a39efe85b7.png)
 
 ### Memoization
-Since the computer will calculate the first(left) recursive method in each level before the second(right) method, once the recursion reaches the base case and started working back up, if we save the calculated Fibonacci numbers into an array, we can reuse the numbers instead of recalculated that same number again. Which means, each Fibonacci number only has to be calculated once and so the time complexity is O(n).
+Since recursion follows in-order tree traveral(left, root, right), the right child will always already be calculated except the very first right child a binary tree will accessed which is going to be the base case. That means, each Fibonacci number only has to be calculated once and so the time complexity is O(n).
 
 For example, if we assume n =3, when the recursion mehod colored in green reaches the base case, it returns 1 to previous function yellow. Then it calculates red, which returns 1 as well. Since we have the 0th and 1st Fibonacci numbers calculated and saved in an array, when the reucursion moves to purple(Fib n-2), we can see that it is the same value as (Fib 1) which is already saved in the array. Therefore, we can simply pull the answer instead recalculating the recursions of the purple, and this is the reason why that with memoization technique, every number only has to be calculated once.
 
